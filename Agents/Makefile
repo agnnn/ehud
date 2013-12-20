@@ -1,0 +1,7 @@
+COMPONENT=FixedNodeC
+
+CFLAGS += -I$(TOSDIR)/lib/printf
+CFLAGS += -DPRINTF_BUFFER_SIZE=2048
+
+include $(MAKERULES)
+
